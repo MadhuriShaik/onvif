@@ -23,9 +23,9 @@ new Cam({
 	}
 	console.log('CONNECTED');
 	this.absoluteMove({
-		x: 1
-		, y: 1
-		, zoom: 1
+		x: 2
+		, y: 3
+		, zoom: 5
 	});
 	this.getStreamUri({protocol:'RTSP'}, function(err, stream) {
 		http.createServer(function (req, res) {
